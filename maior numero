@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+  float num, maiorNum;
+  int contador ;
+  maiorNum = -1000;
+  
+  for( contador = 0 ; contador < 10; contador ++) {
+    printf("Digite o %d numero: ", contador + 1);
+    scanf("%f", &num);
+
+
+        
+   if( num > maiorNum ){
+    maiorNum = num;
+   }
+    }
+    
+  
+  
+  printf("O maior numero digitado foi: %.2f ", maiorNum );
+  
+ return 0;
+}
